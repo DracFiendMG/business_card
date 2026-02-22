@@ -1,0 +1,33 @@
+body {
+  margin: auto;
+  width: 317px;
+  background: #23252C;
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  padding: 44px 0;
+}
+
+header {
+  display: flex;
+}
+
+.profile {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+main {
+  background: #1A1B21;
+  text-align: center;
+  padding: 21px 36px;
+}
+
+main > h1 {
+  margin-top: 0;
+}
+
+footer {
+  background: #161619;
+}

@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header>
-            <img src="src/assets/profile-image-no-bg.png" alt="Sreeram's profile" />
+            <img className="profile" src="src/assets/ProfilePicture.jpg" alt="Sreeram's profile" />
         </header>
     )
 }
