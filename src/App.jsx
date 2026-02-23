@@ -1,13 +1,15 @@
 import './App.css'
+import Info from './components/Info'
+import About from './components/About'
+import Interests from './components/Interests'
 import Footer from './components/Footer'
-import Header from './components/Header'
-import Main from './components/Main'
 
 function App() {
   return (
     <>
-      <Header />
-      <Main />
+      <Info />
+      <About />
+      <Interests />
       <Footer />
     </>
   )

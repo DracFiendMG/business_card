@@ -7,24 +7,24 @@ body {
   padding: 44px 0;
 }
 
-header {
-  display: flex;
-}
-
-.profile {
-  width: 317px;
-  height: 317px;
+.info, .profile {
   border-radius: 10px 10px 0 0;
-  object-fit: cover;
 }
 
-main {
+.info {
   background: #1A1B21;
   text-align: center;
   padding: 21px 36px;
 }
 
-main > h1 {
+.profile {
+  width: 317px;
+  height: 317px;
+  object-fit: cover;
+  margin: -21px -36px 21px -36px;
+}
+
+.info > h1 {
   margin: 0;
   font-size: 1.5625em;
 }
@@ -93,19 +93,28 @@ footer {
 }
 
 .about, .interests {
+  background: #1A1B21;
   text-align: left;
   color: #F5F5F5;
-  margin: 33px 0 25px 0;
+  padding: 0 36px;
+  margin: 0;
+}
+
+.about > h3 {
+  padding-top: 12px;
 }
 
 .about > h3, .interests > h3 {
   font-size: 1em;
   margin: 0;
+  /* padding-top: 33px; */
 }
 
 .about > p, .interests p {
   font-size: 0.64em;
   line-height: 1.5;
+  padding-bottom: 25px;
+  margin: 0;
 }
 
 footer > a {
