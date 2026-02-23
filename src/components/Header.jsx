@@ -1,7 +1,9 @@
+import profileImage from '../assets/ProfilePicture.jpg'
+
 export default function Header() {
     return (
         <header>
-            <img className="profile" src="src/assets/ProfilePicture.jpg" alt="Sreeram's profile" />
+            <img className="profile" src={profileImage} alt="Sreeram's profile" />
         </header>
     )
 }
