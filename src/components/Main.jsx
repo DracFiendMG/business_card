@@ -10,11 +10,11 @@ export default function Main() {
             </div>
             <div className="about">
                 <h3>About</h3>
-                <p>I am a full stack developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+                <p>I am a full stack developer excelling in building scalable web applications and solving complex problems with clean, efficient code.</p>
             </div>
             <div className="interests">
                 <h3>Interests</h3>
-                <p>Web Development, Open Source, AI, Exploring New Tech, Eating</p>
+                <p>Web Development, Open Source, AI, Exploring New Tech, Eating, Watching Anime and Reading Manga</p>
             </div>
         </main>
     )
